@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mac.appproject_moneymanager">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.intent.action.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme2">
+        <activity android:name=".Actions.HienThiThongTinHo"></activity>
+        <activity android:name=".Actions.DisplayListHole" />
+        <activity android:name=".Actions.MapActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCNBGWr9gV370E1xpDBa6fhgJkN2SlmPAE" />
+
+        <activity android:name=".Actions.HienThiThongTinKhongDat" />
+        <activity android:name=".Actions.HienThiThongTinBaoDuong" />
+        <activity android:name=".Actions.NhapThongTinBaoDuong" />
+        <activity android:name=".Actions.TabActivityBaoDuong" />
+        <activity
+            android:name=".Actions.MenuActivity"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actions.NhapThongTinKiemSoat"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Actions.TabActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Adapter.Tab1" />
+        <activity android:name=".Adapter.Tab2" />
+        <activity android:name=".Actions.HienThiThongTinKiemSoat" />
+        <activity android:name=".Actions.ScannerActivity" />
+        <activity android:name=".Actions.ToQuanLy" />
+    </application>
+
+</manifest>

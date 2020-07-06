@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu4"
+    >
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true">
+    </android.support.v7.widget.Toolbar>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="15dp"
+            >
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/edttk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:ems="10"
+                android:enabled="false"
+                android:textColor="@color/red"
+                android:gravity="center"
+                android:textSize="22sp"
+
+                />
+        </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        >
+        <TableRow>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kiểm Soát"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+                <ImageButton
+                    android:id="@+id/btnkiemsoat"
+                    android:layout_height="@dimen/height_ic"
+                    android:layout_width="@dimen/width_ic"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/layout_margin5"
+                    android:src="@drawable/custom_ic_ks"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageButton>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bảo Dưỡng"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+                <ImageButton
+                    android:id="@+id/btnbaoduong"
+                    android:layout_height="@dimen/height_ic"
+                    android:layout_width="@dimen/width_ic"
+                    android:layout_margin="@dimen/layout_margin5"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/custom_ic_bd">
+
+                </ImageButton>
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bản Đồ"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+                <ImageButton
+                    android:id="@+id/btnmap"
+                    android:layout_height="@dimen/height_ic"
+                    android:layout_width="@dimen/width_ic"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/layout_margin5"
+                    android:src="@drawable/custom_ic_map"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Đổi Mật Khẩu"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+                <ImageButton
+                    android:id="@+id/btnchangepass"
+                    android:layout_height="@dimen/height_ic"
+                    android:layout_width="@dimen/width_ic"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/layout_margin5"
+                    android:src="@drawable/custom_ic_change_pass"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageButton>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Danh Sách Hố"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+                <ImageButton
+                    android:id="@+id/btnlisthole"
+                    android:layout_height="@dimen/height_ic"
+                    android:layout_width="@dimen/width_ic"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/layout_margin5"
+                    android:src="@drawable/custom_ic_list_hole"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    >
+
+                </ImageButton>
+            </LinearLayout>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="Công Ty Cổ Phần Cấp Nước Hải Phòng"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="Phòng Công Nghệ Thông Tin"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quản Lý Hố Kỹ Thuật</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Đỗ Tiến Dương</string>
+    <string name="nav_header_subtitle">capnuochaiphong.com.vn</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="turn_off_flashlight">Bật Flash</string>
+    <string name="turn_on_flashlight">Tắt Flash</string>
+    <string name="message">Vã vạch phải được đặt bên trong hình chữ nhật</string>
+    <string name="chkkhongdat">Không Đạt</string>
+</resources>

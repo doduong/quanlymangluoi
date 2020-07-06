@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chieucao40">40dp</dimen>
+    <dimen name="canduoi100">100dp</dimen>
+    <dimen name="chieurong40">40dp</dimen>
+    <dimen name="chieucao50">50dp</dimen>
+    <dimen name="chieurong50">50dp</dimen>
+    <dimen name="chieucao70">100dp</dimen>
+    <dimen name="chieurong70">100dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="textsize16">16dp</dimen>
+    <dimen name="layout_margin5">2dp</dimen>
+    <dimen name="s100">100dp</dimen>
+    <dimen name="s110">110dp</dimen>
+    <dimen name="s120">120dp</dimen>
+    <dimen name="s130">130dp</dimen>
+    <dimen name="s140">140dp</dimen>
+    <dimen name="boder_ic">8dp</dimen>
+    <dimen name="inset_ic">10dp</dimen>
+    <dimen name="height_ic">90dp</dimen>
+    <dimen name="width_ic">120dp</dimen>
+
+</resources>

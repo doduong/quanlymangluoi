@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <stroke android:width="@dimen/boder_ic" android:color="@color/colorPrimaryDark"></stroke>
+            <corners android:radius="10dp" ></corners>
+
+
+        </shape>
+
+    </item>
+    <item>
+        <inset android:drawable="@drawable/icon_list" android:inset="@dimen/inset_ic"></inset>
+    </item>
+</layer-list>
